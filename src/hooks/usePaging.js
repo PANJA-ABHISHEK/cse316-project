@@ -1,3 +1,7 @@
+/**
+ * Custom hook for managing paging simulation state.
+ * Handles configuration, page table generation, and address translation.
+ */
 import { useState, useCallback } from 'react';
 import { translateAddress, generatePageTable, calcPages } from '../utils/pagingUtils';
 
