@@ -7,6 +7,7 @@ import SegmentationPage from './pages/SegmentationPage';
 import PageReplacementPage from './pages/PageReplacementPage';
 import ComparisonPage from './pages/ComparisonPage';
 
+// Framer Motion transition config for page-level animations
 const PAGE_TRANSITION = {
   initial: { opacity: 0, y: 16 },
   animate: { opacity: 1, y: 0 },
@@ -23,6 +24,7 @@ function AnimatedPage({ children }) {
 }
 
 export default function App() {
+  // Theme state — defaults to dark mode
   const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
