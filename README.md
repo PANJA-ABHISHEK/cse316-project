@@ -92,3 +92,19 @@ npm run build
 - **Comparison Mode** — Side-by-side algorithm performance analysis
 - **Dark / Light Mode** — Toggle between themes
 - **Animated UI** — Smooth page transitions and micro-animations
+
+## 🌐 Deployment
+
+This project is deployed on **Vercel**. The `vercel.json` rewrite rule ensures that client-side routing works correctly:
+
+```json
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}
+```
+
+Live URL: [https://cse316-project.vercel.app](https://cse316-project.vercel.app)
+
+## 📄 License
+
+This project is for educational purposes — CSE316 Operating Systems course project.
