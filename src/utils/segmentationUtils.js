@@ -1,5 +1,7 @@
 /**
  * Segmentation utility functions
+ * Provides segment access validation, overlap detection,
+ * and color palette generation for segment visualization.
  */
 
 /**
