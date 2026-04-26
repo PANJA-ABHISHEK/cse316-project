@@ -1,5 +1,7 @@
 /**
  * Paging utility functions
+ * Handles logical-to-physical address translation,
+ * page table generation, and address enumeration.
  */
 
 /**
