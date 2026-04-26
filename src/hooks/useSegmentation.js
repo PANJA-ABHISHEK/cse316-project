@@ -1,3 +1,7 @@
+/**
+ * Custom hook for managing segmentation simulation state.
+ * Handles segment CRUD, memory access validation, and violation detection.
+ */
 import { useState, useCallback } from 'react';
 import { accessSegment, SEGMENT_COLORS } from '../utils/segmentationUtils';
 
